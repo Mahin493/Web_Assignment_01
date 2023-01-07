@@ -1,0 +1,279 @@
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 1518px;
+
+}
+
+/*
+  banner part
+*/
+
+.banner {
+    display: flex;
+
+
+
+}
+
+.banner-title {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.banner-description {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: right;
+    color: #444343;
+}
+
+.button-primary {
+    margin-top: 32px;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    color: aliceblue;
+    background-color: #F15B22;
+    border-radius: 8px;
+}
+
+/*
+  main part section 01
+*/
+
+
+.main-section01 {
+    display: flex;
+    height: 870px;
+
+}
+
+.main-section01-img {
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
+}
+
+.main-section01-text {
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 900px;
+    top: 1181px;
+
+}
+
+.main-section01-subtext01 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.main-section01-subtext02 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    color: #444343;
+    margin-top: 24px;
+}
+
+.main-section01-subtext03 {
+    margin-top: 16px;
+    font-family: 'Work Sans';
+    font-size: normal;
+    font-weight: 100;
+    font-size: 16px;
+
+}
+
+/*
+  main part section 02
+*/
+.main-section02 {
+
+    margin-top: 160px;
+    height: 299.96px;
+
+}
+
+.main-section02-main-text {
+    text-align: center;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-left: 30px;
+    
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+
+}
+
+.about-info-img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.info-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.info-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 16px;
+    color: #737272;
+}
+
+.main-section03-fullcontent {
+
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    background-image: linear-gradient(to right, rgba(237, 91, 35, 0.52), rgba(173, 174, 24, 0.73)), url("../images/watch.png");
+    background-repeat: no-repeat;
+
+}
+
+.main-section03-content {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+
+}
+
+/* footer */
+
+.footer {
+    height: 577px;
+    background-color: #151414;
+    margin-bottom: -7px;
+    margin-top: 130px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content1 {
+    margin-left: 230px;
+    align-content: center;
+}
+
+.footer-content1-sub {
+    display: flex;
+    position: absolute;
+}
+
+.footer-content-div1-text1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-top: 130px;
+}
+
+.footer-content-div1-text2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.footer-content2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content2-input {
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2842.26px;
+    border-radius: 30px;
+    border-bottom-color: rgb(231, 231, 236);
+    border-left-color: rgb(231, 231, 236);
+    border-right-color: rgb(231, 231, 236);
+    border-top-color: rgb(231, 231, 236);
+    background-color: #151414;
+
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.button-primary1 {
+    display: block;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    color: #F15B22;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-top: 16px;
+}
